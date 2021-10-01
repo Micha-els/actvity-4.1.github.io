@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.home-background {
+    background: url(../img/adv4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 50%;
+    height: 90vh;
+}
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.social-media img:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+p {
+    text-align: justify;
+}
