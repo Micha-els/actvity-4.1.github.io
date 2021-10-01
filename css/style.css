@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -21,6 +21,9 @@ ul li:hover {
     transform: scale(1.2);
     transition: 0.2s;
     cursor: pointer;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
 }
 p {
     text-align: justify;
