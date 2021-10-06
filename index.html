@@ -9,21 +9,32 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <nav class="min-vh-25 bg-info d-flex justify-content-between align-items-center">
-        <div class="d-lg-flex d-md-flex align-items-center ">
-            <img src="./img/logo.jpg" alt="Logo" class="h-100">
-            <h1 class="fw-bolder ps-1">Rendezvous</h1>
-        </div>
-        <div class="container d-flex justify-content-end align-items-center">
-            <ul class="d-flex flex-wrap justify-content-between list-unstyled ps-3 fs-3">
-                <li> <a href="index.html" class="text-decoration-none text-white px-lg-4 px-md-3">Home</a></li>
-                <li> <a href="about.html" class="text-decoration-none text-white px-lg-4 px-md-3">About Us</a></li>
-                <li> <a href="services.html" class="text-decoration-none text-white px-lg-4 px-md-3">Our Services</a></li>
-                <li> <a href="contact.html" class="text-decoration-none text-white px-lg-4 px-md-3">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/"><img src="./img/logo.jpg" alt="Logo"></a>
+            <span><h1> Rendezvous</h1></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div class="home-background d-flex flex-column justify-content-center text-success text-center">
+    <div class="home-background d-flex flex-column justify-content-center text-success text-center min-vh-100">
         <h2 class="fw-bold">@</h3>
         <h1 class="fw-bolder py-3">Rendezvous</h1>
         <h2 class="fst-italic">leisure comes with splashes</h3>

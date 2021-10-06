@@ -11,7 +11,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 50%;
-    height: 90vh;
 }
 ul li:hover {
     transform: scale(1.1);
