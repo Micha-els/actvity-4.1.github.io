@@ -27,3 +27,9 @@ h1 {
 p {
     text-align: justify;
 }
+.bulllet-img {
+    height: 50px;
+    width: 120px;
+    border-radius: 50%;
+    background: black;
+}
